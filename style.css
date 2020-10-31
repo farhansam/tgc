@@ -1,0 +1,9 @@
+.row {
+    border: 1px red solid;
+}
+.col {
+    border: 1px red solid;
+}
+div[class*="col-"] {
+    border: 1px solid red;
+}
