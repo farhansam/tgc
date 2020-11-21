@@ -1,9 +1,76 @@
-.row {
-    border: 1px red solid;
+
+@font-face {
+    font-family: 'Nunito', sans-serif;
 }
-.col {
-    border: 1px red solid;
+
+p, div, h5, h6 {
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
 }
-div[class*="col-"] {
-    border: 1px solid red;
+
+.navbar-custom {
+    background-color: rgb(245,242,242);
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 2em;
 }
+
+.hb-align {
+    margin-right: 70px;
+}
+
+.banner {
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.description {
+    text-align: center;
+    color: rgb(158,111,85);
+}
+
+.para-top {
+    margin: 0;
+}
+
+.para-last {
+    margin-bottom: 5em;
+}
+
+.title-space {
+    margin-bottom: 2em;
+}
+
+.container-custom{
+    background-color: rgb(249,249,249);
+    padding: 35px;
+    margin-bottom: 5em;
+    color: rgb(158,111,85);
+}
+
+.btn-custom {
+    background-color: rgb(230,203,199);
+    border-color: rgb(230,203,199);
+    color: rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+
+.btn-custom a {
+    color: rgba(0,0,0,0.5);
+}
+
+.btn-custom:hover, .btn-custom a:hover {
+    color: rgba(0,0,0,0.5);
+    background-color: rgb(210,183,170);
+    border-color: rgb(210,183,170);
+    text-decoration: none;
+}
+
+.footer {
+    width: 100vw;
+    height: 150px;
+    background-color: rgb(245,242,242);
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+
